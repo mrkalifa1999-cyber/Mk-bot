@@ -1,17 +1,27 @@
-{                                                                     
-  "name": "Mk-bot",                                           
-  "description": "WhatsApp bot.",                                       
-  "repository": "https://github.com/XdKing2/Mk-bot",                                                                     
-  "logo": "https://files.catbox.moe/vfv7n6.jpg",           
-  "keywords": ["nodejs", "XdKing2", "multi device"],                                               
-  "buildpacks": [                                                     
-    {                                                                   
-      "url": "heroku/nodejs"                                        
-    },                                                                
-    {                                                                   
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"                                                            
-    },                                                                
-    {                                                                   
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"                                                                  
-    }                                                            
-  ]                                                            
+{
+  "name": "MK-Bot",
+  "description": "A powerful WhatsApp bot by Malvin King",
+  "repository": "https://github.com/XdKing2/Mk-bot",
+  "logo": "https://files.catbox.moe/641pvo.jpg",
+  "keywords": ["whatsapp", "bot", "nodejs", "automation"],
+  "env": {
+    "SESSION_ID": {
+      "description": "Your session ID (starcore~)",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Bot owner's phone number",
+      "required": true
+    },
+    "BOT_MODE": {
+      "description": "Bot mode (public or self)",
+      "value": "public",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
