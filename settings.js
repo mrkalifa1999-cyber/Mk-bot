@@ -21,14 +21,14 @@ const chalk = require('chalk')
 //———————[ Owner Config ]——————————//
 
 global.ownernumber = '263714757857' // Change to your number
-global.ownername = 'ᴍᴀʟᴠɪɴ ᴋɪɴɢ' // add ur name
+global.ownername = '⭕ʀᴇᴅɪʏᴀ...' // add ur name
 global.botMode ='public' // change to public or self
 
 //————————[ Bot Config ]—————————//
 
 global.SESSION_ID = ""; // add ur session id starts with starcore~
 global.namabot = "ᴍᴋ-ʙᴏᴛ"
-global.nomorbot = '263714757857' // Change to yourbot number
+global.nomorbot = '+94787537977' // Change to yourbot number
 global.pair = "MRMALVIN"
 global.version = '1.0.1'
 global.autojoingc = false
